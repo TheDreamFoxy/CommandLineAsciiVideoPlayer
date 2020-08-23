@@ -26,15 +26,16 @@ def generate_frame(image,new_width=70):
 	ascii_image = "\n".join([new_image_data[index:(index+new_width)] for index in range(0, total_pixels, new_width)])
 
 	sys.stdout.write(ascii_image)
-	os.system('cls')
+	os.system('cls' if os.name == 'nt' else 'clear')
 
 
 
-cap = cv2.VideoCapture("resources/blackdance.mp4")
+
+cap = cv2.VideoCapture("blackdance.mp4")
 
 while True:
 
 	ret,frame = cap.read()
 	cv2.imshow("frame",frame)
 	generate_frame(Image.fromarray(frame))
-	cv2.waitKey(10)
+	cv2.waitKey(1)
