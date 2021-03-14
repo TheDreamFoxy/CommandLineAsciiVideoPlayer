@@ -2,10 +2,10 @@
 This tool convert video to terminal text in realtime
 
 # Installation
-Download & install [Python] (http://python.org)
+Download & install [Python](http://python.org)
 > Recommended to use Python 3.6
 
-Download & install [pip] (http://pypi.org/project/pip/)
+Download & install [pip](http://pypi.org/project/pip/)
 
 Save this project on your pc using git or download button
 
