@@ -15,3 +15,6 @@ In folder where you have the project use `pip -r requirements.txt`
 In file **config.py** configure all things you need.
 
 At folder where you have the project execute command `python run.py`
+
+
+###### This is my first Python project, pls don't hate me.
