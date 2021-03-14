@@ -7,7 +7,7 @@ Download & install [Python](http://python.org)
 
 Download & install [pip](http://pypi.org/project/pip/)
 
-Save this project on your pc using git or download button
+Save this project on your device using git or download button
 
 In folder where you have the project use `pip -r requirements.txt`
 
