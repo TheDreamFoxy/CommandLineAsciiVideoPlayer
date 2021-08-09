@@ -25,7 +25,10 @@ os.system('cls' if os.name == 'nt' else 'clear')
 
 ASCII_CHARS = ["@", "#", "S", "%", "?", "*", "+", ";", ":", ",", " "]
 
-pygame.mixer.music.play()
+try:
+	pygame.mixer.music.play()
+except:
+	pass
 
 def resized_gray_image(image ,new_width=config.size):
 	width,height = image.size
